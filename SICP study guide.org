@@ -1,0 +1,26 @@
+#+TITLE: SICP Study Guide
+
+* Prerequisites
+
+- [[https://github.com/sarabander/sicp][Get the book]]
+- [[https://racket-lang.org/][Install DrRacket]]
+
+** Install the Sicp package for DrRacket
+
+Use DrRacket to install the sicp package like this:
+
+1. Open the Package Manager: in DrRacket choose the menu "File" then choose "Package Manager...".
+
+2. In the tab "Do What I Mean" find the text field and enter: "sicp"
+
+3. Finally click the "Install" button.
+
+Test it. Make sure DrRacket has "Determine language from source" in the bottom
+left corner. Write the following program and click run:
+
+#+BEGIN_SRC emacs-lisp
+#lang sicp
+(inc 42)
+#+END_SRC
+
+The expected output is 43.
